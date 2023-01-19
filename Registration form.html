@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form | Web Development</title>
+    <style>
+        h1{
+            background-color: bisque;
+            text-align: center;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration form for Web Development</h1>
+    <form action="">
+        <label for="Name">Name</label>
+        <Input type="text" name="Name" placeholder="First Name"></Input>
+        <Input type="text" name="Name" placeholder="Last Name"></Input><br><br>
+        <label for="CollegeName">College Name</label>
+        <input type="text" name="CollegeName" placeholder="eg:IIT Madras" size="50"><br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="name">
+        <label for="gender" value="name">Male</label>
+        <input type="radio" name="gender" value="female">
+        <label for="gender" value="female">Female</label> <br><br>
+        <label for="branch">Branch</label>
+        <input type="text" name="branch" placeholder="eg:Bsc.Computer science" size="35"><br><br>
+        <label for="hobbies">Hobbies</label><br>
+        <textarea name="hobbies" cols="25" rows="6"></textarea><br><br>
+        <label for="courses">Courses</label>
+        <select name="courses" >
+            <option value="WebDevelopment">Web Development</option>
+            <option value="Datascience">Data Science</option>
+            <option value="ApplicationDevelopment">Application Development</option>
+            <option value="FSinWeb">Full-Stack Web Development</option>
+            <option value="others">Others</option>
+        </select>
+        <label for="courses">Others</label>
+        <input type="text" placeholder="others"><br><br>
+        <label for="img">Profile Pic:</label>
+        <input type="file" name="img" accept="image/*"><br><br>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" name="favcolor" value="#00005C"><br><br>
+        <label for="birthday">DOB:</label>
+        <input type="date" name="birthday"><br><br>
+
+        <label for="address1">Street</label><br><br>
+        <input type="text" name="address" placeholder="Street address line 1" size="55"><br><br>
+        <input type="text" name="address" placeholder="Street address line 2" size="55"><br><br>
+        <label for="state">State</label>
+        <select name="state">
+            <option value="none">none</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Andra Pradesh">Andra Pradesh</option>
+            <option value="Telungana">Telungana</option>
+        </select>
+        <label for="state">City</label>
+        <select name="city">
+            <option value="none">none</option>
+            <option value="Ambur">Ambur </option>
+            <option value="vellore">Vellore</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Rajhmundry">Rajhmundry</option>
+        </select><br><br>
+
+        <label for="linkedin">Linkedin</label>
+        <input type="url" name="linkedin" size="70"><br><br>
+
+
+        <label for="username">Username:</label>
+        <input type="text" placeholder="Create username"><br><br>
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" maxlength="8" minlength="4"><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
